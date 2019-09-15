@@ -11,7 +11,8 @@ A simple To-Do application & User AUTH API
 4. `php artisan key:generate`
 5. Open .env file and change DB_DATABASE, DB_USERNAME and  DB_PASSWORD with yours
 6. `php artisan migrate`
-7. `php artisan serve`
+7. `php artisan passport:install`
+8. `php artisan serve`
 
 # Register API:
 ![Register API](http://mos-tafa.com/code_img/todos/register_api.png)
