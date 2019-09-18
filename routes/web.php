@@ -17,5 +17,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 // Todo Resources
-Route::resource('todo', 'TodoController', ['middleware' => 'auth']);
 Route::put('todo/changeStatus/{id}', ['as' => 'changeStatus', 'uses' => 'TodoController@changeStatus']);
+Route::resource('todo', 'TodoController', ['middleware' => 'auth']);
